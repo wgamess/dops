@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/><meta name="google" content="notranslate">
+    <title>Preview</title>
+    <link rel="stylesheet" href="css/main.css?v=5"/>
+    <script type="text/javascript" src="libs/jquery.min.js"></script>
+    <script src="strings.js"></script>
+    <script src="direc.js"></script>
+    <script>
+      var targets = ['rtr','lkl','split','lkl2'];
+      var target = '';
+      var params = getParse();
+
+      target = checkAgParam(params['ag_custom_domain'], targets);
+      
+      var decodedString = '';//atob(string);
+      switch(target) {
+          case 'split':
+              decodedString = atob(string_split);
+              break;
+          case 'rtr':
+              decodedString = atob(string_rtr);
+              break;
+          case 'lkl2':
+              decodedString = atob(string_lkl2);
+              break;
+          case 'lkl':
+              decodedString = atob(string_lkl);
+              break;
+          
+          default:
+              decodedString = atob(string_rtr);
+      }        
+      // document.write(''+ decodedString +'');</script>
+  </script>
+  </head>
+  <body>
+    
+    <div class="app">
+      
+      
+      <div class="notice notice-fix notice-destroy">
+        <div class="notice-wrapper">
+          <!-- <div class="notice-bg"><img src="image/notice.png" alt="notice"/></div> -->
+          <div class="notice-text">
+            
+            <p class="text-first"><span>
+                We use scripts and similar technologies to understand how you use our services,
+                 improve your experience and serve you personalized content and advertising. 
+                 By clicking accept, you accept all scripts. To manage your scripts and learn
+                  more about our use of scripts click “reject/manage scripts”.
+                </span>
+            </p>
+            <div class="notice-btns"><a href="/" class="btns btn-true">Accept</a><a href="/" class="btns btn-false">Reject/Manage</a></div>
+            <p class="text-second">
+              Review and Manage Your Script SettingsThis page provides an 
+              overview of our use of scripts and similar technologies and how to manage them. 
+              For more information please visit our   <a href="/polo/cookies.html">Cookie Policy</a> and our <a href="/polo/privacy.html">Privacy Policy</a>.
+              
+              
+              
+            </p>
+          </div>
+        </div>
+      </div><a href="https://play.google.com/store/apps/details?id=air.com.r2gamesusa.clickerheroes" class="play-btn playbtn2">Play game</a>
+    </div>
+    <script type="text/javascript" src="scripts/main.js?v=3"></script>
+    
+  </body>
+</html>
